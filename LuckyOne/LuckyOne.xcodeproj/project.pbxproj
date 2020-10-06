@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D4B1D4008B1E7EB5F6A95AD /* Pods_LuckyOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAD144FAD90864095FDBF42 /* Pods_LuckyOne.framework */; };
+		6AD4DDF1729C1402F88C233D /* Pods_LuckyOneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720AEB4B60AD835F38957BDC /* Pods_LuckyOneTests.framework */; };
+		70EFE462252C61AB00AB4042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EFE461252C61AB00AB4042 /* AppDelegate.swift */; };
+		70EFE464252C61AB00AB4042 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EFE463252C61AB00AB4042 /* SceneDelegate.swift */; };
+		70EFE466252C61AB00AB4042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EFE465252C61AB00AB4042 /* ViewController.swift */; };
+		70EFE469252C61AB00AB4042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EFE467252C61AB00AB4042 /* Main.storyboard */; };
+		70EFE46B252C61AB00AB4042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70EFE46A252C61AB00AB4042 /* Assets.xcassets */; };
+		70EFE46E252C61AB00AB4042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EFE46C252C61AB00AB4042 /* LaunchScreen.storyboard */; };
+		70EFE479252C61AB00AB4042 /* LuckyOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EFE478252C61AB00AB4042 /* LuckyOneTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70EFE475252C61AB00AB4042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70EFE456252C61AB00AB4042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70EFE45D252C61AB00AB4042;
+			remoteInfo = LuckyOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BAD144FAD90864095FDBF42 /* Pods_LuckyOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFB7D2BA34796877CB2D7F7 /* Pods-LuckyOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyOne.debug.xcconfig"; path = "Target Support Files/Pods-LuckyOne/Pods-LuckyOne.debug.xcconfig"; sourceTree = "<group>"; };
+		461B5CEA45764B8C51AD6F66 /* Pods-LuckyOneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyOneTests.debug.xcconfig"; path = "Target Support Files/Pods-LuckyOneTests/Pods-LuckyOneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70EFE45E252C61AB00AB4042 /* LuckyOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EFE461252C61AB00AB4042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70EFE463252C61AB00AB4042 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		70EFE465252C61AB00AB4042 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70EFE468252C61AB00AB4042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70EFE46A252C61AB00AB4042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70EFE46D252C61AB00AB4042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70EFE46F252C61AB00AB4042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EFE474252C61AB00AB4042 /* LuckyOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EFE478252C61AB00AB4042 /* LuckyOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyOneTests.swift; sourceTree = "<group>"; };
+		70EFE47A252C61AB00AB4042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		720AEB4B60AD835F38957BDC /* Pods_LuckyOneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyOneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783646A5EA661CA21356A9A3 /* Pods-LuckyOneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyOneTests.release.xcconfig"; path = "Target Support Files/Pods-LuckyOneTests/Pods-LuckyOneTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1D9C8E4E57026B1C9FD36A4 /* Pods-LuckyOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyOne.release.xcconfig"; path = "Target Support Files/Pods-LuckyOne/Pods-LuckyOne.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70EFE45B252C61AB00AB4042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4B1D4008B1E7EB5F6A95AD /* Pods_LuckyOne.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EFE471252C61AB00AB4042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD4DDF1729C1402F88C233D /* Pods_LuckyOneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B98E8BC7E1FBF0902595613 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CFB7D2BA34796877CB2D7F7 /* Pods-LuckyOne.debug.xcconfig */,
+				A1D9C8E4E57026B1C9FD36A4 /* Pods-LuckyOne.release.xcconfig */,
+				461B5CEA45764B8C51AD6F66 /* Pods-LuckyOneTests.debug.xcconfig */,
+				783646A5EA661CA21356A9A3 /* Pods-LuckyOneTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		70EFE455252C61AB00AB4042 = {
+			isa = PBXGroup;
+			children = (
+				70EFE460252C61AB00AB4042 /* LuckyOne */,
+				70EFE477252C61AB00AB4042 /* LuckyOneTests */,
+				70EFE45F252C61AB00AB4042 /* Products */,
+				2B98E8BC7E1FBF0902595613 /* Pods */,
+				C7CE0B778F34DB0AE423C004 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70EFE45F252C61AB00AB4042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70EFE45E252C61AB00AB4042 /* LuckyOne.app */,
+				70EFE474252C61AB00AB4042 /* LuckyOneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70EFE460252C61AB00AB4042 /* LuckyOne */ = {
+			isa = PBXGroup;
+			children = (
+				70EFE461252C61AB00AB4042 /* AppDelegate.swift */,
+				70EFE463252C61AB00AB4042 /* SceneDelegate.swift */,
+				70EFE465252C61AB00AB4042 /* ViewController.swift */,
+				70EFE467252C61AB00AB4042 /* Main.storyboard */,
+				70EFE46A252C61AB00AB4042 /* Assets.xcassets */,
+				70EFE46C252C61AB00AB4042 /* LaunchScreen.storyboard */,
+				70EFE46F252C61AB00AB4042 /* Info.plist */,
+			);
+			path = LuckyOne;
+			sourceTree = "<group>";
+		};
+		70EFE477252C61AB00AB4042 /* LuckyOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				70EFE478252C61AB00AB4042 /* LuckyOneTests.swift */,
+				70EFE47A252C61AB00AB4042 /* Info.plist */,
+			);
+			path = LuckyOneTests;
+			sourceTree = "<group>";
+		};
+		C7CE0B778F34DB0AE423C004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BAD144FAD90864095FDBF42 /* Pods_LuckyOne.framework */,
+				720AEB4B60AD835F38957BDC /* Pods_LuckyOneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70EFE45D252C61AB00AB4042 /* LuckyOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EFE47D252C61AB00AB4042 /* Build configuration list for PBXNativeTarget "LuckyOne" */;
+			buildPhases = (
+				C969E2C12159AF1F02FF963D /* [CP] Check Pods Manifest.lock */,
+				70EFE45A252C61AB00AB4042 /* Sources */,
+				70EFE45B252C61AB00AB4042 /* Frameworks */,
+				70EFE45C252C61AB00AB4042 /* Resources */,
+				C320A55D9ECFDE0892C10ACB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyOne;
+			productName = LuckyOne;
+			productReference = 70EFE45E252C61AB00AB4042 /* LuckyOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70EFE473252C61AB00AB4042 /* LuckyOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EFE480252C61AB00AB4042 /* Build configuration list for PBXNativeTarget "LuckyOneTests" */;
+			buildPhases = (
+				B04BA40FECC7E13D84089997 /* [CP] Check Pods Manifest.lock */,
+				70EFE470252C61AB00AB4042 /* Sources */,
+				70EFE471252C61AB00AB4042 /* Frameworks */,
+				70EFE472252C61AB00AB4042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70EFE476252C61AB00AB4042 /* PBXTargetDependency */,
+			);
+			name = LuckyOneTests;
+			productName = LuckyOneTests;
+			productReference = 70EFE474252C61AB00AB4042 /* LuckyOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70EFE456252C61AB00AB4042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Anuj Vats";
+				TargetAttributes = {
+					70EFE45D252C61AB00AB4042 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					70EFE473252C61AB00AB4042 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 70EFE45D252C61AB00AB4042;
+					};
+				};
+			};
+			buildConfigurationList = 70EFE459252C61AB00AB4042 /* Build configuration list for PBXProject "LuckyOne" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70EFE455252C61AB00AB4042;
+			productRefGroup = 70EFE45F252C61AB00AB4042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70EFE45D252C61AB00AB4042 /* LuckyOne */,
+				70EFE473252C61AB00AB4042 /* LuckyOneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70EFE45C252C61AB00AB4042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EFE46E252C61AB00AB4042 /* LaunchScreen.storyboard in Resources */,
+				70EFE46B252C61AB00AB4042 /* Assets.xcassets in Resources */,
+				70EFE469252C61AB00AB4042 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EFE472252C61AB00AB4042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B04BA40FECC7E13D84089997 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyOneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C320A55D9ECFDE0892C10ACB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyOne/Pods-LuckyOne-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyOne/Pods-LuckyOne-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckyOne/Pods-LuckyOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C969E2C12159AF1F02FF963D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70EFE45A252C61AB00AB4042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EFE466252C61AB00AB4042 /* ViewController.swift in Sources */,
+				70EFE462252C61AB00AB4042 /* AppDelegate.swift in Sources */,
+				70EFE464252C61AB00AB4042 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EFE470252C61AB00AB4042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EFE479252C61AB00AB4042 /* LuckyOneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70EFE476252C61AB00AB4042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70EFE45D252C61AB00AB4042 /* LuckyOne */;
+			targetProxy = 70EFE475252C61AB00AB4042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70EFE467252C61AB00AB4042 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70EFE468252C61AB00AB4042 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70EFE46C252C61AB00AB4042 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70EFE46D252C61AB00AB4042 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70EFE47B252C61AB00AB4042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70EFE47C252C61AB00AB4042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70EFE47E252C61AB00AB4042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CFB7D2BA34796877CB2D7F7 /* Pods-LuckyOne.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anuj.LuckyOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70EFE47F252C61AB00AB4042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D9C8E4E57026B1C9FD36A4 /* Pods-LuckyOne.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anuj.LuckyOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70EFE481252C61AB00AB4042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461B5CEA45764B8C51AD6F66 /* Pods-LuckyOneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyOneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anuj.LuckyOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyOne.app/LuckyOne";
+			};
+			name = Debug;
+		};
+		70EFE482252C61AB00AB4042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 783646A5EA661CA21356A9A3 /* Pods-LuckyOneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyOneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anuj.LuckyOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyOne.app/LuckyOne";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70EFE459252C61AB00AB4042 /* Build configuration list for PBXProject "LuckyOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EFE47B252C61AB00AB4042 /* Debug */,
+				70EFE47C252C61AB00AB4042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EFE47D252C61AB00AB4042 /* Build configuration list for PBXNativeTarget "LuckyOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EFE47E252C61AB00AB4042 /* Debug */,
+				70EFE47F252C61AB00AB4042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EFE480252C61AB00AB4042 /* Build configuration list for PBXNativeTarget "LuckyOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EFE481252C61AB00AB4042 /* Debug */,
+				70EFE482252C61AB00AB4042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70EFE456252C61AB00AB4042 /* Project object */;
+}
